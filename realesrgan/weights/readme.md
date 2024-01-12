@@ -1,0 +1,1 @@
+put RealESRGAN x2 and x4 checkpoints here

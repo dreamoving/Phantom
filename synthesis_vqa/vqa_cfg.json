@@ -1,0 +1,42 @@
+{
+"degradation":{
+    "all_frames":false,
+    "select_clip":"5clip",
+    "frame_num_per_clip":5
+},
+"freeze_flicker_detect":{
+    "all_frames":false,
+    "frame_num_per_clip":"all",
+    "select_clip":"longest"
+},
+"interlace_detect":{
+    "crop_mode":"motion_center_crop", 
+    "all_frames":false,
+    "frame_num_per_clip":"all",
+    "select_clip":"longest"
+},
+"scene_cls":{
+    "all_frames":false,
+    "frame_num_per_clip":5,
+    "select_clip":"5clip"
+},
+"iqa_det":{
+    "frame_interval":-1
+},
+"mos":{
+    "frame_interval":-1,
+    "all_frames":false,
+    "frame_num_per_clip":5,
+    "select_clip":"5clip"
+},
+"scratch_det":{    
+    "all_frames":false,
+    "frame_num_per_clip":"all",
+    "select_clip":"longest"
+},
+"color_quality_analysis":{
+    "all_frames":false,
+    "frame_num_per_clip":5,
+    "select_clip":"5clip"
+}
+}

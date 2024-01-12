@@ -1,0 +1,16 @@
+NOTICE: This project includes and uses code from the following open-source projects:
+
+CLIP (MIT License)
+The code from CLIP is used under the MIT License. For more details, please see the CLIP repository and its license: https://github.com/openai/CLIP
+
+LAVIS (BSD-3-Clause License)
+The code from LAVIS is used under the BSD-3-Clause License. For more details, please see the LAVIS repository and its license: https://github.com/salesforce/LAVIS
+
+Real-ESRGAN (BSD-3-Clause License)
+The code from Real-ESRGAN is used under the BSD-3-Clause License. For more details, please see the Real-ESRGAN repository and its license: https://github.com/xinntao/Real-ESRGAN
+
+SwinIR (Apache-2.0 License)
+The code from SwinIR is used under the Apache License 2.0. For more details, please see the SwinIR repository and its license: https://github.com/JingyunLiang/SwinIR
+
+---------------------------
+This NOTICE file includes excerpts from the third-party licenses of the components mentioned above. The notices are for informational purposes only and do not modify the licenses. You must still follow all the terms of the respective licenses. 
