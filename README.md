@@ -1,4 +1,4 @@
-# dreamoving-phantom-project
+# Phantom
 DreaMoving-Phantom is a general and automatic image enhancement and super-resolution framework, which can be applied to images of various scenes and qualities. With the demo we provide, users just need to upload a low-quality image to generate an enhanced image with one click. **No need to choose the sr model or adjust parameters**. Now you can try our [demo](https://www.modelscope.cn/studios/vigen/DreaMoving_Phantom/summary) at modelscope.
 
 The quality of enhancement and functions of this project are being continuously optimized and expanded. We also welcome developers to continue to develop and contribute to this Repo.
@@ -29,13 +29,13 @@ docker pull registry.cn-hangzhou.aliyuncs.com/modelscope-repo/modelscope:ubuntu2
 ```
 run the docker and then:
 ```bash
-git clone https://github.com/dreamoving/dreamoving-phantom-project.git
+git clone https://github.com/dreamoving/Phantom.git
 # install python package
 pip install -r requirements.txt
 ```
 or you can install modelscope manually
 ```bash
-git clone https://github.com/dreamoving/dreamoving-phantom-project.git
+git clone https://github.com/dreamoving/Phantom.git
 pip install modelscope==1.9.3
 pip install -r requirements.txt
 ```
@@ -50,7 +50,7 @@ When inferencing with PASD, you can use personalized_models instead of SD1.5. Do
 ## Usage
 As mentioned in the introduction, this is a fully automatic image enhancement super-resolution framework. Generally, you don’t need to select a model or adjust parameters based on image input. Simply run the following code, you can build a gradio demo locally. You can also try our online demo at [modelscope](https://www.modelscope.cn/studios/vigen/DreaMoving_Phantom/summary).
 ```bash
-cd dreamoving-phantom-project
+cd Phantom
 python gradio1.py
 ```
 
