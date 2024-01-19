@@ -12,5 +12,11 @@ The code from Real-ESRGAN is used under the BSD-3-Clause License. For more detai
 SwinIR (Apache-2.0 License)
 The code from SwinIR is used under the Apache License 2.0. For more details, please see the SwinIR repository and its license: https://github.com/JingyunLiang/SwinIR
 
+MARCONet (S-Lab License 1.0)
+The code from MARCONet is used under the S-Lab License 1.0. For more details, please see the MARCONet repository and its license: https://github.com/csxmli2016/MARCONet
+
+textbsr (Apache-2.0 License)
+The code from textbsr is used under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. For more details, please see the textbsr repository and its license: https://github.com/csxmli2016/textbsr
+
 ---------------------------
 This NOTICE file includes excerpts from the third-party licenses of the components mentioned above. The notices are for informational purposes only and do not modify the licenses. You must still follow all the terms of the respective licenses. 

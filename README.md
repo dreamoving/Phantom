@@ -7,6 +7,7 @@ The quality of enhancement and functions of this project are being continuously 
 <p align="center" style="font-size: 16px; font-weight: bold;">input (left) and output (right)</p>
 
 <p align="center">
+<img src="./assets/example5.png" width="600px">
 <img src="./assets/example1.png" width="600px">
 <img src="./assets/example2.png" width="600px">
 <img src="./assets/example3.png" width="600px">
@@ -14,10 +15,11 @@ The quality of enhancement and functions of this project are being continuously 
 </p>
 
 ## News
-[2024.01.12] First release code
+[2024.01.12] First release code  
+[2024.01.19] Add text super-resolution module (improved from [MARCONet](https://github.com/csxmli2016/MARCONet)). This module will still be updated iteratively
 
 ## ⏰TODOs
-- [ ] Add text super-resolution module to improve the effect of text scenes (will be finished soon)
+- [✅] Add text super-resolution module to improve the effect of text scenes
 - [ ] Release a model specifically for AIGC image enhancement
 - [ ] Release a model specifically for old photo enhancement
 
@@ -45,13 +47,16 @@ Download SD1.5 models from [huggingface](https://huggingface.co/runwayml/stable-
 Dwonload [RealESRGAN_x4plus](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth) and [RealESRGAN_x2plus](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.1/RealESRGAN_x2plus.pth) and put them in realesrgan/weights  
 Download [SwinIR](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth) and put it in SwinIR/weights  
 Download [iqa_model](https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/public/phantom/checkpoints/mos_model_best.pth) and put it in synthesis_vqa/weights  
+Download text_sr_model and put it in MARCONet/checkpoints, please refer to MARCONet/checkpoints/download_github.py  
+Download [cnstd](https://huggingface.co/breezedeus/cnstd-cnocr-models) and put it in MARCONet/checkpoints/db_resnet34/1.2/db_resnet34  
 When inferencing with PASD, you can use personalized_models instead of SD1.5. Download the [majicMIX](https://civitai.com/models/43331/majicmix-realistic) and put it in checkpoints/personalized_models to run the demo.
 
 ## Usage
 As mentioned in the introduction, this is a fully automatic image enhancement super-resolution framework. Generally, you don’t need to select a model or adjust parameters based on image input. Simply run the following code, you can build a gradio demo locally. You can also try our online demo at [modelscope](https://www.modelscope.cn/studios/vigen/DreaMoving_Phantom/summary).
 ```bash
 cd Phantom
-python gradio1.py
+# python gradio1.py
+python gradio2.py # gradio2 is for the newest version, which includes text super-resolution module 
 ```
 
 ## Reference and Acknowledgments
@@ -59,5 +64,6 @@ We gratefully acknowledge the following projects and contributors for their work
 [PASD](https://github.com/yangxy/PASD)  
 [SwinIR](https://github.com/JingyunLiang/SwinIR)  
 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)  
+[MARCONet](https://github.com/csxmli2016/MARCONet)  
 [CLIP](https://github.com/openai/CLIP)  
 [LAVIS](https://github.com/salesforce/LAVIS)

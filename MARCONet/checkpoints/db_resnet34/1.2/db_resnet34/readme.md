@@ -1,0 +1,1 @@
+put text detection ckpt here

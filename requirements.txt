@@ -3,3 +3,4 @@ diffusers==0.21.4
 salesforce-lavis
 ultralytics
 xformers==0.0.21
+cnstd
